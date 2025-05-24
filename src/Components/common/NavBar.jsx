@@ -264,7 +264,7 @@ const NavBar = ({ setProgress }) => {
                                     dispatch(setProgress(100));
                                     loginWithCognito();
                                 }}
-                                className='rounded-[8px] border border-yellow-300 bg-yellow-50 px-[12px] py-[7px] text-black hover:scale-95 transition-all duration-200'
+                                className='bg-richblack-900 text-richblack-900 px-[12px] py-[7px] rounded-[8px] border border-richblack-900'
                             >
                                 Login with AWS
                             </button>
@@ -278,7 +278,7 @@ const NavBar = ({ setProgress }) => {
 
                             {/* 3. Login (ẩn theo style) */}
                             <Link to='/login' onClick={() => dispatch(setProgress(100))}>
-                                <button className='bg-richblack-900 text-richblack-900 px-[12px] py-[7px] rounded-[8px] border border-richblack-900'>
+                                <button className='rounded-[8px] border border-yellow-300 bg-yellow-50 px-[12px] py-[7px] text-black hover:scale-95 transition-all duration-200'>
                                     Login
                                 </button>
                             </Link>
